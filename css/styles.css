@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: 10% 25%;
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    margin: 10% 25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    margin: 10% 0;
+  }
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-radius: 1rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card-img-top {
+  padding: 12px;
+  border-radius: 1.2rem;
+}
+
+.card-body p {
+  margin: 0;
+  padding: 8px 0;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.card-body h5 {
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
